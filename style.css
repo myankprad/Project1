@@ -1,0 +1,88 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    
+    font-family: Poppins;
+    margin: 10px;
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container img{
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.navbar-container button{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+    font-weight: 200;
+    font-family: Poppins;
+   
+}
+.list-item:nth-child(1){
+ font-weight: 400;
+}
+.nav-button{
+      
+      height: 40px;
+      cursor: pointer;
+      display: inline-block;
+      background-color: rgb(123, 53, 189);
+      border: 1px black solid;
+      border-radius: 10px;
+      padding: 7px 16px;
+      line-height: 1.2;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+  
+}
+
+.grow-list{
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 50px;
+    
+}
+
+.banner-container{
+    display: flex;
+}
+
+.heading-text{
+    font-size: 55px;
+}
+
+.description{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.banner-container button{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(123, 53, 189);
+}
+
+.heading-text{
+    color: rgb(49, 20, 77);
+}
+
+.heading-text span{
+    color: blueviolet;
+}
